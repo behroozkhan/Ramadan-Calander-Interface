@@ -1,0 +1,164 @@
+/* This is my main body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    background-image: url(./images/background.jpg);
+}
+
+/* this is my header for navbar styling */
+header {
+    display: flex;
+    height: 54px;
+    background-color: #114d61;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+/* this is my main nav logo */
+.ramadan-logo {
+    display: flex;
+    width: 100px;
+    padding: 2px 8px;
+    margin-left: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ramadan-logo img {
+    width: 100%;
+}
+
+/* This is my navbar styling */
+.nav {
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+    padding-left: 0px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+/* hover nav */
+.nav a:hover {
+    background-color: #f70b0b;
+
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.search {
+    width: 80%;
+    height: 40px;
+    display: flex;
+
+}
+
+.search input {
+    border: none;
+    outline: none;
+    width: 50%;
+    border-radius: 8px 0px 0px 5px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.search button {
+    background-color: rgb(192, 174, 171);
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    outline: none;
+    width: 20%;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.container {
+
+    width: 100%;
+    min-width: 650px;
+    margin: auto;
+    border: 1px solid rgb(3, 3, 3);
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 800;
+
+
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: red;
+}
+
+.calender {
+
+
+    display: flex;
+    text-align: center;
+    border: 1px solid rgb(6, 7, 7);
+}
+
+table,
+th,
+td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 2px solid rgb(7, 7, 7);
+
+}
+
+th {
+    padding: 5px;
+}
+
+
+/* this is a hover style  */
+tr:hover {
+    background: #6693bb;
+
+}
+
+
+.hover-row {
+
+    background-color: #b0d2ed;
+}
+
+.hover-row:hover {
+    background: #3e4f5e;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.table-head:hover {
+    background: #69ddc3;
+    transform: perspective(1000px) rotatey(0.88deg) rotatex(0.23deg) scale3d(1.05, 1.05, 1.05);
+}
